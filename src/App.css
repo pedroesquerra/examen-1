@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 7vmin;
+  pointer-events: none;
+}
+
+.App-descripcion {
+  height: 5vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Form {
+  width:30%;
+  margin-top: 50px;
+}
+.List {
+
+  margin-top: 50px;
+}
+.Cartelera {
+
+  margin-top: 50px;
+  
+}
+
+.Containers{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: calc(5px + 2vmin);
+  margin-bottom: 5vmin;
+
+}
+.Peliculas{
+  display:flex;
+  margin-bottom: 5vmin;
+  min-width: 40vw;
+  min-height: 45vh;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 10px;
+
+}
+.Poster{
+  pointer-events: none;
+  min-width: 15vw; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Descripcion{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 22vw; 
+  font-size: calc(5px + 2vmin);
+
+}
+
+.Horarios{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+.Ticket{
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 5vmin;
+  font-size: calc(5px + 2vmin);
+  min-width: 40vw;
+  min-height: 45vh;
+  text-align: center;
+  flex-direction:column;
+  justify-content: space-around;
+  min-height: 60vmin;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+
+.Botones{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+
+}
+
+.Ticket2{
+  display:flex;
+  min-height: 60vmin;
+  flex-wrap: wrap;
+  margin-top: 11vmin;
+  font-size: calc(8px + 2vmin);
+  text-align: center;
+  flex-direction:column;
+  justify-content: space-around;
+  min-width: 40vw;
+  min-height: 45vh;
+
+
+}
